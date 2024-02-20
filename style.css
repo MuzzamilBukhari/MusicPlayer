@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: #004c4c;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #b2d8d8;
+}
+
+.options {
+    width: 14em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.backBtn, .menu {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: -2px 2px 2px #8fc2c2;
+}
+.menu img {
+    width: 80%;
+}
+.song-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 17px;
+    width: 90%;
+}
+.cover{
+    width: 8em;
+    height: 8em;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.song-name{
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.singer-name{
+    margin-top: 4px;
+    font-size: 0.6rem;
+}
+
+input {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.options-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 12px 0 12px 0;
+}
+
+.options-container button {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    padding: 11px;
+    box-shadow: -2px 2px 2px #8fc2c2;
+}
+
+.options-container .pause {
+    width: 46px;
+    height: 46px;
+}
